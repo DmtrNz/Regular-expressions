@@ -1,0 +1,11 @@
+const regex1 = /[abc]/;
+const string1 = "apple";
+const string2 = "banana";
+const string3 = "hello";
+const string4 = "cherry";
+const string5 = "orange";
+console.log(regex1.test(string1));
+console.log(regex1.test(string2));
+console.log(regex1.test(string3));
+console.log(regex1.test(string4));
+console.log(regex1.test(string5));
